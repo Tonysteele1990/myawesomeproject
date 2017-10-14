@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get 'this-is-us' => 'welcome#about'
 
-  get 'reach-out-to-us' => 'welcome#contact'
+  get 'talk-to-us' => 'welcome#contact'
 
   get 'yes-the-index' => 'welcome#index'
 
